@@ -30,6 +30,8 @@ strongly recommended to test out this feature first (before making the whole con
 - page -> list page : (same)
 - page -> cart : see #1 description
 
+- once this is done, consider adding typescript & zod. If zod is not friendly, hold it to the next opportunity.
+
 # intermediate plan
 - And test out kakaopay module. First, make up the module api from checkout.js, then address it to paymentForm.js.
 - react hook form, apply checkbox, and possibly try adding isDirty if possible, maybe use this to say insufficient deposit etc? (If that so, just apply default deposit to user (don't add login feature though. No DB will be added).)
@@ -39,3 +41,4 @@ strongly recommended to test out this feature first (before making the whole con
 If this project is over too early, consider adding some dummyjson as item list, and add pagination feature.
 
 Deadline: 7th Apr Friday. 18:00PM (KR time)
+
